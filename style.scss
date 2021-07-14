@@ -1,0 +1,76 @@
+
+body{
+    background-image: url(images/lane.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  #game{
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    box-shadow: 2px 2px 2px 1px rgba(148, 148, 148, 0.5);;
+  }
+  .turn {
+    background-color: rgba(189, 189, 189, 0.5);
+  }
+                                  /* BUTTON */
+  button {
+      position: absolute;
+      width: 150px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #555;
+      background: none;
+      border: none;
+      text-transform: uppercase;
+      transition: background-color 0.3s, color 0.3s;
+  }
+  .btn-game { top: 30px;}
+  .btn-roll { top: 450px;}
+  .btn-hold { top: 500px;}
+  
+  button:hover{
+    cursor: pointer;
+    color: #e04242;
+  }
+                                /*de change*/
+  #de{
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 150px;
+  }
+                              /*joueur*/
+  
+  .player1,
+  .player2{
+    width: 50%;
+    padding: 20px;
+  }
+
+  #box1, 
+  #box2{
+    width: 100px;
+    height: 80px;
+    background-color: rgba(224, 66, 66, 0.8);
+    border : 2px solid black;
+    margin: 150px  auto;
+    padding: 25px;
+  }
+  #score1,
+  #score2{
+    margin: 100px;
+    font-size: 32px;
+    color: rgb(224, 66, 66);
+  }
+  #scoreCurrent1,
+  #scoreCurrent2{
+      margin: 15px;
+      color: white;
+  }
+  
