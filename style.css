@@ -1,4 +1,7 @@
 body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
   background-image: url(images/lane.jpg);
   background-size: cover;
   background-position: center;
@@ -9,7 +12,9 @@ body {
 #game {
   width: 90vw;
   height: 90vh;
-  margin: 5vh auto;
+  margin: 5vw;
+  position: absolute;
+  overflow: hidden;
   background-color: white;
   display: flex;
   box-shadow: 2px 2px 2px 1px rgba(148, 148, 148, 0.5);
@@ -51,7 +56,7 @@ button:hover {
 }
 
 /*de change*/
-#de {
+#dice {
   position: absolute;
   width: 150px;
   left: 50%;
@@ -68,30 +73,30 @@ button:hover {
 
 #box1,
 #box2 {
-  width: 100px;
-  height: 80px;
+  width: 25%;
+  height: 15%;
   background-color: rgba(224, 66, 66, 0.8);
   border: 2px solid black;
   margin: 150px auto;
   padding: 25px;
 }
 
-#score1,
-#score2 {
+.score1,
+.score2 {
   margin: 100px;
   font-size: 32px;
   color: #e04242;
 }
 
-#scoreCurrent1,
-#scoreCurrent2 {
+.scoreCurrent1,
+.scoreCurrent2 {
   margin: 15px;
   color: white;
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
-  margin: -5px 5px;
+  width: 10%;
+
+  margin: 0 5px;
   color: black;
-}/*# sourceMappingURL=style.css.map */
+}
