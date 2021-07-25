@@ -24,15 +24,14 @@ button {
   height: 7vh;
   left: 50%;
   transform: translateX(-50%);
-  color: #555;
-  background: white;
   border: none;
-  transition: background-color 0.3s, color 0.3s;
+  background: none;
+
 
 }
 .btn-game {
   top: 10vh;
-  border-radius: 10px 100px / 120px;
+
 }
 
 .btn-roll {
@@ -80,7 +79,7 @@ button:hover {
   margin: 5vh auto;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(224, 66, 66, 0.8);
+  background-color: rgb(224, 66, 66);
   border: 2px solid black;
 }
 .score1,
@@ -101,5 +100,5 @@ button:hover {
   font-size: 3vw;
 }
 .turn {
-  background-color: rgba(189, 189, 189, 0.6);
+  background-color: rgba(172, 155, 155, 0.8);
 }
