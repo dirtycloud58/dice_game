@@ -36,15 +36,12 @@ button {
 
 .btn-roll {
   bottom: 16vh;
-  border-radius: 10px 100px / 120px;
 }
 
 .btn-hold {
   bottom: 8vh;
-  border-radius: 10px 100px / 120px;
 }
 .btn-regle{
-  border-radius: 10px 100px / 120px;
   bottom: 0;
   transform: translateX(25%);
 }
