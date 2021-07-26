@@ -91,6 +91,7 @@ scoreTotal1.textContent = '0';
 scoreTotal2.textContent = '0';
 document.querySelector('.player1').classList.add('turn');
 document.querySelector('.player2').classList.remove('turn');
+document.querySelector(".dice").src = "images/dice-5.png";
 };
 
 
